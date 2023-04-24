@@ -1,2 +1,2 @@
-# proyectoCG
- ProyectoCG(juego3D)
+# proyecto-CG
+ 
