@@ -11,11 +11,11 @@ public class ConfiguracionVolumen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Slider.value = PlayerPrefs.GetFloat("volumenAudio", 0.5f);
+        Slider.value = PlayerPrefs.GetFloat("volumenAudio", 0.0f);
         AudioListener.volume = Slider.value;
         
 
-        Debug.Log(PlayerPrefs.GetFloat("volumenAudio", 0.5f));
+        Debug.Log(PlayerPrefs.GetFloat("volumenAudio", 0.0f));
     }
 
 
